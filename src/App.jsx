@@ -23,7 +23,7 @@ function App() {
     setLoading(true);
 
     try {
-      const apiKey = "AIzaSyA-2vUiUNapBpY_RkCCEd1Pn29p6OIeTkU";
+      const apiKey = "API_Key";
       const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
       const payload = {
